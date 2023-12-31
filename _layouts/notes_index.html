@@ -1,0 +1,45 @@
+---
+layout: notes
+---
+
+{{ content }}
+
+
+<br />
+
+{% assign base_url = page.url  %}
+{% assign sorted_pages = site.pages | sort:"url" %}
+
+<!-- this does not work with GitHub pages -->
+<!-- assign notes_pages = sorted_pages | where_exp:"item", "item.layout=='notes_index' or item.layout=='notes'" -->
+
+<ul>
+    {% for node in sorted_pages  %}
+    {% if node.url contains base_url %}
+    {% unless node.title contains '[index]'%}
+    <li>
+        <a href="{{node.url}}">{{node.title}}</a>
+    </li>
+    {% endunless %}
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<br />
+<br />
+<br />
+
+<div style="font-size:smaller;">
+    <table>
+        {% for node in sorted_pages  %}
+        {% if node.url contains base_url %}
+        {% unless node.title contains '[index]'%}
+        <tr>
+            <td style="padding:3px; width:1%;"><a href="{{node.url}}">{{node.url}}  </a></td>
+            <td style="padding:3px;"><a href="{{node.url}}">{{node.title}}  </a></td>
+        </tr>
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
+    </table>
+</div>

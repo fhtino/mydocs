@@ -1,0 +1,7 @@
+theme: minima
+title: fhtino docs
+show_downloads: false
+author:  
+  www_do_no_show: https://www.fhtino.it  
+minima:
+  skin: classic
