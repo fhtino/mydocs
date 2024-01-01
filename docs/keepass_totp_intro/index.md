@@ -63,7 +63,7 @@ Copy and paste into the authentication form, where required.
 Suggestion: after storing TOTP secret keys, try if KeePass works as expected. Login into your account using a browser in incognito mode for not interfering with exiting logged-in sessions.
 
 Here is some account pages:
- - Google accounts: https://myaccount.google.com/
+ - Google accounts: <https://myaccount.google.com/>
  - Microsoft work accounts: https://myaccount.microsoft.com/
  - Microsoft consumer accounts: https://account.microsoft.com/
 
@@ -73,7 +73,7 @@ Generally, there are restriction on the number of secret keys allowed per accoun
 The following 3 articles highlight the required and particular steps for using KeePass with Microsoft and Google accounts:
 
 **Microsoft consumer accounts (outlook, live, etc.)**  
-https://www.fhtino.it/blog/using-keepass-as-an-mfa-2-step-sign-in-method-with-microsoft-consumer-accounts
+<https://www.fhtino.it/blog/using-keepass-as-an-mfa-2-step-sign-in-method-with-microsoft-consumer-accounts>
 
 **Microsoft work accounts**  
 https://www.fhtino.it/blog/using-keepass-as-mfa-sign-in-method-with-microsoft-work-accounts
