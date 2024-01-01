@@ -26,7 +26,7 @@ otpauth://totp/Microsoft:accountname@live.com?secret=xxxxxxxx&issuer=Microsoft
 
 
 The whole process can be summarized as:
-1. Authentication provider generates a TOTP secrect key and display it as a datamatrix
+1. Authentication provider generates a TOTP secret key and display it as a datamatrix
 2. The user scans the datamatrix using the authenticator app and the app imports secret key alongside other side-data.
 3. The app is ready to be used.
 4. App continuously generate OTP codes, based on TOTP secret key. They are refreshed every 30 seconds.
@@ -40,7 +40,7 @@ Using KeePass as an authenticator requires the following steps.
 
 Create a new entry or edit an existing one.
 
-<myimage><img src="1.jpg" width="150px"></myimage>
+<myimage><img src="1.jpg" width="200px"></myimage>
 
 To import a TOTP secret key, right click the entry and select Edit Entry (Quick) --> OTP Generator Settings.
 
@@ -81,7 +81,7 @@ https://www.fhtino.it/blog/using-keepass-as-mfa-sign-in-method-with-microsoft-wo
 **Google accounts**  
 https://www.fhtino.it/blog/using-keepass-as-a-2-step-sign-in-method-with-google-accounts
 
-Last but not least: remember to periodically backup the KeePass database file (the .kdbx file), use a strong master-password and high values for “iterations”.
+Last but not least: remember to periodically backup the KeePass database file (the .kdbx file), use a strong master-password and high values for "iterations".
 
 <myimage><img src="6.jpg" width="350px"></myimage>
 
