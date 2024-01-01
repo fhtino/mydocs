@@ -1,11 +1,11 @@
 ---
 layout: doc
-categories: docs
-publish_date: 2011-01-05
+listing: 1
+publish_date: 2001-12-31
 abstract: how to change the world by sleeping all the day
 ---
 
-# Lorem ipsum dolor sit amet
+# ... lorem ipsum dolor sit amet
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel sapien nec dolor consectetur pretium. Curabitur efficitur est a quam tincidunt ultricies. Curabitur eget ligula pretium, posuere ex eget, dapibus est. Sed tempor urna at purus pellentesque, sed posuere tortor vulputate. Morbi lobortis eleifend elit, in lacinia dui ornare a. Nunc suscipit sapien vestibulum, placerat velit nec, placerat eros. Aenean rhoncus, tellus sit amet placerat auctor, ex turpis lacinia leo, vehicula tincidunt dui odio ut sem. Maecenas ac mauris orci. Quisque at nisi eu odio lacinia tristique vel quis turpis. Praesent ut hendrerit libero, tempus pharetra quam. Ut dignissim tincidunt mauris sit amet feugiat. Duis et magna ac metus ultrices cursus sit amet sit amet mi. Suspendisse potenti. Maecenas congue quam augue, vitae lacinia turpis dignissim vitae. Sed rhoncus placerat lobortis. Vestibulum aliquet fermentum nisi, in convallis ante efficitur nec.
 

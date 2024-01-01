@@ -1,7 +1,6 @@
 theme: minima
 title: fhtino docs
 show_downloads: false
-author:  
-  www_do_no_show: https://www.fhtino.it  
+author: Fabrizio Accatino - fhtino
 minima:
   skin: classic
