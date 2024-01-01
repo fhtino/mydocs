@@ -64,8 +64,8 @@ Suggestion: after storing TOTP secret keys, try if KeePass works as expected. Lo
 
 Here is some account pages:
  - Google accounts: <https://myaccount.google.com/>
- - Microsoft work accounts: https://myaccount.microsoft.com/
- - Microsoft consumer accounts: https://account.microsoft.com/
+ - Microsoft work accounts: <https://myaccount.microsoft.com/>
+ - Microsoft consumer accounts: <https://account.microsoft.com/>
 
 Generally, there are restriction on the number of secret keys allowed per account. Google limits to only one. Microsoft consumer accounts allow 2 keys, one linked to the Microsoft Authenticator and one to a generic authenticator app. So, storing the same key on the authenticator app and on KeePass could be tricky.
 
@@ -76,10 +76,11 @@ The following 3 articles highlight the required and particular steps for using K
 <https://www.fhtino.it/blog/using-keepass-as-an-mfa-2-step-sign-in-method-with-microsoft-consumer-accounts>
 
 **Microsoft work accounts**  
-https://www.fhtino.it/blog/using-keepass-as-mfa-sign-in-method-with-microsoft-work-accounts
+<https://www.fhtino.it/blog/using-keepass-as-mfa-sign-in-method-with-microsoft-work-accounts>
 
-**Google accounts**  
-https://www.fhtino.it/blog/using-keepass-as-a-2-step-sign-in-method-with-google-accounts
+<strong> ==> [Google accounts]({% link docs/keepass_totp_google/index.md %}) <== </strong>
+
+<br/>
 
 Last but not least: remember to periodically backup the KeePass database file (the .kdbx file), use a strong master-password and high values for "iterations".
 
